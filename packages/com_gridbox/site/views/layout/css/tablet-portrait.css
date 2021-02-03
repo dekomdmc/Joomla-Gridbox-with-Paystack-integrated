@@ -1,0 +1,186 @@
+/*
+/* Blog
+*/
+
+.ba-item-categories .ba-classic-layout .ba-blog-post,
+.ba-item-blog-posts .ba-classic-layout .ba-blog-post,
+.ba-item-search-result .ba-classic-layout .ba-blog-post,
+.ba-item-post-navigation .ba-classic-layout .ba-blog-post,
+.ba-item-related-posts .ba-classic-layout .ba-blog-post,
+.ba-item-recent-posts .ba-classic-layout .ba-blog-post {
+    flex-direction: column !important;
+}
+
+.ba-item-categories .ba-blog-post .ba-blog-post-image {
+    margin: 0 auto;
+}
+
+.ba-item-categories .ba-classic-layout .ba-blog-post .ba-blog-post-content,
+.ba-item-blog-posts .ba-classic-layout .ba-blog-post .ba-blog-post-content,
+.ba-item-search-result .ba-classic-layout .ba-blog-post .ba-blog-post-content,
+.ba-item-post-navigation .ba-classic-layout .ba-blog-post .ba-blog-post-content,
+.ba-item-related-posts .ba-classic-layout .ba-blog-post .ba-blog-post-content,
+.ba-item-recent-posts .ba-classic-layout .ba-blog-post .ba-blog-post-content {
+    width: 100%;
+}
+
+.ba-item-categories .ba-classic-layout .ba-blog-post-content {
+    padding-left: 0;
+}
+
+.header .ba-tb-pt-12,
+.header [class*="span"].ba-tb-pt-12,
+.body .ba-tb-pt-12,
+.footer .ba-tb-pt-12,
+.ba-tb-pt-12 {
+    width: 100%;
+}
+
+.header .ba-tb-pt-11,
+.header [class*="span"].ba-tb-pt-11,
+.body .ba-tb-pt-11,
+.footer .ba-tb-pt-11,
+.ba-tb-pt-11 {
+    width: 91.66666667%;
+}
+
+.header .ba-tb-pt-10,
+.header [class*="span"].ba-tb-pt-10,
+.body .ba-tb-pt-10,
+.footer .ba-tb-pt-10,
+.ba-tb-pt-10 {
+    width: 83.33333333%;
+}
+
+.header .ba-tb-pt-9,
+.header [class*="span"].ba-tb-pt-9,
+.body .ba-tb-pt-9,
+.footer .ba-tb-pt-9,
+.ba-tb-pt-9 {
+    width: 75%;
+}
+
+.header .ba-tb-pt-8,
+.header [class*="span"].ba-tb-pt-8,
+.body .ba-tb-pt-8,
+.footer .ba-tb-pt-8,
+.ba-tb-pt-8 {
+    width: 66.66666667%;
+}
+
+.header .ba-tb-pt-7,
+.header [class*="span"].ba-tb-pt-7,
+.body .ba-tb-pt-7,
+.footer .ba-tb-pt-7,
+.ba-tb-pt-7 {
+    width: 58.33333333%;
+}
+
+.header .ba-tb-pt-6,
+.header [class*="span"].ba-tb-pt-6,
+.body .ba-tb-pt-6,
+.footer .ba-tb-pt-6,
+.ba-tb-pt-6 {
+    width: 50%;
+}
+
+.header .ba-tb-pt-5,
+.header [class*="span"].ba-tb-pt-5,
+.body .ba-tb-pt-5,
+.footer .ba-tb-pt-5,
+.ba-tb-pt-5 {
+    width: 41.66666667%;
+}
+
+.header .ba-tb-pt-4,
+.header [class*="span"].ba-tb-pt-4,
+.body .ba-tb-pt-4,
+.footer .ba-tb-pt-4,
+.ba-tb-pt-4 {
+    width: 33.33333333%;
+}
+
+.header .ba-tb-pt-3,
+.header [class*="span"].ba-tb-pt-3,
+.body .ba-tb-pt-3,
+.footer .ba-tb-pt-3,
+.ba-tb-pt-3 {
+    width: 25%;
+}
+
+.header .ba-tb-pt-2,
+.header [class*="span"].ba-tb-pt-2,
+.body .ba-tb-pt-2,
+.footer .ba-tb-pt-2,
+.ba-tb-pt-2 {
+    width: 16.66666667%;
+}
+
+.header .ba-tb-pt-1,
+.header [class*="span"].ba-tb-pt-1,
+.body .ba-tb-pt-1,
+.footer .ba-tb-pt-1,
+.ba-tb-pt-1 {
+    width: 8.33333333%;
+}
+
+.column-wrapper .ba-grid-column-wrapper.ba-tb-pt-order-1 {
+    order: 1;
+}
+
+.column-wrapper .ba-grid-column-wrapper.ba-tb-pt-order-2 {
+    order: 2;
+}
+
+.column-wrapper .ba-grid-column-wrapper.ba-tb-pt-order-3 {
+    order: 3;
+}
+
+.column-wrapper .ba-grid-column-wrapper.ba-tb-pt-order-4 {
+    order: 4;
+}
+
+.column-wrapper .ba-grid-column-wrapper.ba-tb-pt-order-5 {
+    order: 5;
+}
+
+.column-wrapper .ba-grid-column-wrapper.ba-tb-pt-order-6 {
+    order: 6;
+}
+
+.column-wrapper .ba-grid-column-wrapper.ba-tb-pt-order-7 {
+    order: 7;
+}
+
+.column-wrapper .ba-grid-column-wrapper.ba-tb-pt-order-8 {
+    order: 8;
+}
+
+.column-wrapper .ba-grid-column-wrapper.ba-tb-pt-order-9 {
+    order: 9;
+}
+
+.column-wrapper .ba-grid-column-wrapper.ba-tb-pt-order-10 {
+    order: 10;
+}
+
+.column-wrapper .ba-grid-column-wrapper.ba-tb-pt-order-11 {
+    order: 11;
+}
+
+.column-wrapper .ba-grid-column-wrapper.ba-tb-pt-order-12 {
+    order: 12;
+}
+
+.ba-video-background video,
+.ba-video-background iframe {
+    left: 0;
+    min-height: 100% !important;
+    top: 0;
+    transform: translateX(-50%)translateX(50vw);
+    width: calc(200vh/.5624);
+}
+
+.ba-item-checkout-form.ba-item .ba-checkout-form-wrapper .ba-checkout-form-fields {
+    width: 100%!important;
+}

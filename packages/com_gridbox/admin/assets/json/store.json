@@ -1,0 +1,94 @@
+{
+    "notification":{
+        "admins":[],
+        "subject":"New Order On [Store Name]: [Order Number]",
+        "body": ""
+    },
+    "stock":{
+        "admins":[],
+        "subject":"The [Product Title] is Running Out of Stock at [Store Name]",
+        "body": "",
+        "quantity": 3
+    },
+    "confirmation":{
+        "name":"",
+        "email":"",
+        "subject":"Thank You for Your Order at [Store Name]",
+        "body": ""
+    },
+    "completed":{
+        "name":"",
+        "email":"",
+        "subject":"Your Order at [Store Name] Has Been Completed",
+        "body": ""
+    },
+    "tax": {
+        "mode": "incl",
+        "rates": []
+    },
+    "sales":{
+        "amount": "",
+        "applies_to": "*",
+        "map": [],
+        "publish_up": "",
+        "publish_down": ""
+    },
+    "currency":{
+        "symbol": "€",
+        "code": "EUR",
+        "position": "right-currency-position",
+        "thousand": ",",
+        "separator": ".",
+        "decimals": "2"
+    },
+    "general":{
+        "store_name":"",
+        "business_name":"",
+        "phone":"",
+        "email":"",
+        "country":"",
+        "region":"",
+        "street":"",
+        "city":"",
+        "zip_code":""
+    },
+    "checkout": {
+        "login": true,
+        "guest": true,
+        "registration": true,
+        "terms": true,
+        "terms_text": "I have read and agree to the <a href=\"#\" target=\"_blank\">Terms and Conditions</a>"
+    },
+    "wishlist": {
+        "login": false
+    },
+    "units": {
+        "weight": "kg"
+    },
+    "statuses": [{
+            "title": "Canceled",
+            "color": "#ff4f49",
+            "key": "1590650260323"
+        },
+        {
+            "title": "Completed",
+            "color": "#34dca2",
+            "key": "completed"
+        },
+        {
+            "title": "New",
+            "color": "#ffc700",
+            "key": "new"
+        },
+        {
+            "title": "Processing",
+            "color": "#0098d8",
+            "key": "1590650260324"
+        },
+        {
+            "title": "Refunded",
+            "color": "#35404a",
+            "key": "refunded"
+        }
+    ]
+}
